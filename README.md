@@ -1,4 +1,4 @@
-# AI-Powered Autonomous Task Scheduler
+# Autonomous Task Logistics & Allocation System (ATLAS)
 
 A Python-based implementation of an autonomous task scheduler that uses AI techniques (Constraint Satisfaction Problem solving and Genetic Algorithms) to efficiently schedule tasks among multiple agents.
 
@@ -42,7 +42,7 @@ A Python-based implementation of an autonomous task scheduler that uses AI techn
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/moaviak/ATLAS.git
 cd AI-Semester-Project
 ```
 
