@@ -1,0 +1,135 @@
+{
+  "tasks": [
+    {
+      "task_id": "T1",
+      "duration": 3,
+      "dependencies": [],
+      "required_resources": [
+        "skill_A"
+      ]
+    },
+    {
+      "task_id": "T2",
+      "duration": 2,
+      "dependencies": [],
+      "required_resources": [
+        "skill_B"
+      ]
+    },
+    {
+      "task_id": "T3",
+      "duration": 4,
+      "dependencies": [
+        "T1"
+      ],
+      "required_resources": [
+        "skill_A"
+      ]
+    },
+    {
+      "task_id": "T4",
+      "duration": 1,
+      "dependencies": [
+        "T2"
+      ],
+      "required_resources": [
+        "skill_C"
+      ]
+    },
+    {
+      "task_id": "T5",
+      "duration": 3,
+      "dependencies": [
+        "T1",
+        "T2"
+      ],
+      "required_resources": [
+        "skill_B"
+      ]
+    },
+    {
+      "task_id": "T6",
+      "duration": 2,
+      "dependencies": [
+        "T3",
+        "T4"
+      ],
+      "required_resources": [
+        "skill_A"
+      ]
+    },
+    {
+      "task_id": "T7",
+      "duration": 1,
+      "dependencies": [
+        "T5"
+      ],
+      "required_resources": [
+        "skill_C"
+      ]
+    },
+    {
+      "task_id": "T8",
+      "duration": 2,
+      "dependencies": [
+        "T6",
+        "T7"
+      ],
+      "required_resources": [
+        "skill_B"
+      ]
+    },
+    {
+      "task_id": "T9",
+      "duration": 2,
+      "dependencies": [
+        "T3"
+      ],
+      "required_resources": [
+        "skill_C"
+      ]
+    },
+    {
+      "task_id": "T10",
+      "duration": 1,
+      "dependencies": [
+        "T8",
+        "T9"
+      ],
+      "required_resources": [
+        "skill_A"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "agent_id": "A1",
+      "skills": [
+        "skill_A",
+        "skill_B"
+      ]
+    },
+    {
+      "agent_id": "A2",
+      "skills": [
+        "skill_B",
+        "skill_C"
+      ]
+    },
+    {
+      "agent_id": "A3",
+      "skills": [
+        "skill_A",
+        "skill_C"
+      ]
+    },
+    {
+      "agent_id": "A4",
+      "skills": [
+        "skill_A",
+        "skill_B",
+        "skill_C"
+      ]
+    }
+  ]
+}

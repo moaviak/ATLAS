@@ -1,0 +1,30 @@
+# AI-Powered Autonomous Task Scheduler for Multi-Agent Systems
+# Requirements file for Python dependencies
+
+# Core visualization library for Gantt charts
+matplotlib>=3.5.0
+
+# Data manipulation and analysis (optional, for enhanced data handling)
+numpy>=1.21.0
+
+# JSON handling is built into Python standard library
+# CSV handling is built into Python standard library
+# Random, copy, time, datetime are all built into Python standard library
+
+# Optional: Enhanced data structures and algorithms
+# scipy>=1.7.0
+
+# Optional: For more advanced plotting capabilities
+# seaborn>=0.11.0
+
+# Optional: For performance profiling and optimization
+# cProfile (built into Python)
+
+# Development and Testing Dependencies (optional)
+# pytest>=6.0.0
+# pytest-cov>=2.10.0
+
+# Code Quality Tools (optional)
+# black>=21.0.0
+# flake8>=3.8.0
+# mypy>=0.812
